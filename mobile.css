@@ -1,0 +1,176 @@
+@media only screen and (max-width: 1000px) {
+  nav {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    top: 72px;
+    z-index: 3;
+    background-color: hsl(256, 26%, 20%);
+    height: 100vh;
+    align-items: unset;
+  }
+
+  nav .nav-buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top:70px;
+    gap:50px;
+  }
+
+  .pat-mobile {
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    top: 750px;
+  }
+
+
+  nav .nav-buttons a {
+    font-size:30px;
+  }
+
+  nav .nav-buttons .plans {
+    padding: 15px 60px;
+  }
+
+  .nav-menu.active {
+    top: 0;
+  }
+
+  header #nav-toggle {
+    display: flex;
+    margin-right: 30px;
+  }
+
+  main {
+    flex-direction: row;
+  }
+
+  main .man-child {
+    position: static;
+    width:100%;
+  }
+
+
+  .rightfoot,
+  .leftfoot,
+  .workfoot,
+  .downfoot
+  {
+    display: none;
+  }
+
+
+  main .mobile-introLeft {
+    display: flex;
+    position: absolute;
+  }
+
+
+  main .mobile-introRight {
+    display: flex;
+    position: absolute;
+    right:10px;
+    margin-top:450px;
+  }
+
+  .mobile-work {
+    display: flex;
+    position: absolute;
+    bottom: 890px;
+    right: 12%;
+  }
+
+
+ .footer-mobile {
+    display: flex;
+    position: absolute;
+    bottom:520px;
+    left: 0%;
+  }
+
+
+  .borderline {
+    display: none;
+  }
+
+  .Textside {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 0;
+    margin-top: 5rem;
+  }
+
+  .canonSection {
+    background-color: hsl(256, 26%, 20%);
+    width: 100%;
+  }
+
+  .Textside h1,
+  .middle h1,
+  .afterMiddle h1 {
+    font-size: 50px;
+    line-height: 0.9;
+    margin-bottom: 20px;
+  }
+
+  .Textside p {
+    line-height: 1.4;
+  }
+
+  .middle {
+    margin-top: 200px;
+    background-color: transparent;
+  }
+
+  .middle-details {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 3rem;
+  }
+
+  .middle h1 {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .borderlineMiddle {
+    width: 150px;
+    margin: auto;
+    margin-bottom: 5rem;
+  }
+
+  .afterMiddle {
+    min-height: 25rem;
+  }
+
+  .body-afterMiddle {
+    flex-direction: column;
+    text-align: center;
+    padding-top: 5rem;
+    gap:1.5rem;
+  }
+
+  .afterMiddle h1 {
+    font-size: 35px;
+  }
+
+  .we-work {
+    font-size: 12px;
+  }
+
+  .intro-footer {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .links-footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+  }
+}
+
