@@ -212,13 +212,13 @@ main .man-child {
 
 .workfoot {
   position: absolute;
-  bottom: 420px;
+  bottom: 450px;
   right: 60px;
 }
 
 .downfoot {
   position: absolute;
-  bottom: 80px;
+  bottom: 110px;
 }
 
 .footer {
